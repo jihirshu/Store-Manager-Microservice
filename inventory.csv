@@ -1,0 +1,6 @@
+item_id, item_name, qty, price
+001, generic soap, 99, 1.20
+002, candy, 999, 0.25
+003, onion, 444, 0.40
+005, milk, 78, 1.99
+001, generic soap, 1, 1.20
