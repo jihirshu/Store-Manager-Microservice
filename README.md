@@ -8,7 +8,7 @@ docker build -t store_manager .
 docker run -p 5000:5000 store_manager
 
 
-Go to \href{http://0.0.0.0:5000/}{http://0.0.0.0:5000/}
+Go to [http://0.0.0.0:5000/](http://0.0.0.0:5000/)
 
 Use http://0.0.0.0:5000/inventory to get the entire inventory details
 
