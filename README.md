@@ -1,7 +1,7 @@
 # Store-Manager-Microservice
 
 ### A sample micro service for store inventory management
-A very basic API to demonstrate a working Flask based microservice in a docker container
+A very basic API to demonstrate a Flask based microservice in a docker container
 
 #### Docker implementation :
 
