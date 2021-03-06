@@ -73,9 +73,27 @@ def get_item(item):
 @app.route('/order/<item>/<qty>')
 def order(item, qty):
     qty = int(qty)
+    if item not in inventory.keys():
+        return jsonify("Item code does not exist in the database")
     inventory[item]['qty'] = inventory[item]['qty'] + qty
 
     return jsonify("Inventory updated",inventory)
 
+@app.route('/add_new/<item>/<name>/<price>/<qty>')
+def addNew(item, name, price, qty):
+    qty = int(qty)
+    price = float(price)
+
+    if item  in inventory.keys():
+        return jsonify("Item code already exists in the database")
+    inventory[item] = {}
+
+    inventory[item]['name'] = name
+    inventory[item]['qty'] = qty
+    inventory[item]['price'] = price
+
+    return jsonify("Inventory updated",inventory)
+
+
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
