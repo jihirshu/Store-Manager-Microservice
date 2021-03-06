@@ -19,6 +19,6 @@ For example : [http://0.0.0.0:5000/sell/001/34] (http://0.0.0.0:5000/sell/001/34
 
 Use http://0.0.0.0:5000/item/<item_id> to get data about a particular item
 
-Use http://0.0.0.0:5000/order/<item_id>/<qty> to add item quantity to inventory
+Use http://0.0.0.0:5000/order/<item_id>/<qty> to add item quantity to inventory  
 
-Use http://0.0.0.0:5000/add_new/<item>/<name>/<price>/<qty> to add a new item to the inventory
+Use http://0.0.0.0:5000/add_new/<item>/<name>/<price>/<qty>/ to add a new item to the inventory
