@@ -14,7 +14,7 @@ Use [http://0.0.0.0:5000/inventory] (http://0.0.0.0:5000/inventory) to get the e
 
 Use [http://0.0.0.0:5000/items] (http://0.0.0.0:5000/items) to get the items and their ids
 
-Use http://0.0.0.0:5000/sell/<item_id>/<qty> to update the inventory with respect to sold item and quantity 
+Use http://0.0.0.0:5000/sell/<item_id>/<qty> to update the inventory with respect to sold item and quantity   
 For example : [http://0.0.0.0:5000/sell/001/34] (http://0.0.0.0:5000/sell/001/34) means 34 units of item id 001 was sold
 
 Use http://0.0.0.0:5000/item/<item_id> to get data about a particular item
