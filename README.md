@@ -17,11 +17,11 @@ A very basic API to demonstrate a working Flask based microservice in a docker c
 
 ##### Get item details -  http://0.0.0.0:5000/items
 
-##### Inventory update after sale - http://0.0.0.0:5000/sell/<$itemID$>/<$qty$> 
+##### Inventory update after sale - http://0.0.0.0:5000/sell/<*itemID*>/<*qty*> 
 ###### For example : [http://0.0.0.0:5000/sell/001/34] (http://0.0.0.0:5000/sell/001/34) means 34 units of item id 001 was sold
 
-##### Get item data - http://0.0.0.0:5000/item/<$itemID$> 
+##### Get item data - http://0.0.0.0:5000/item/<*itemID*> 
 
-##### Add item quantity to inventory - http://0.0.0.0:5000/order/<$itemID$>/<$qty$>
+##### Add item quantity to inventory - http://0.0.0.0:5000/order/<*itemID*>/<*qty*>
 
-##### Add new item to inventory - http://0.0.0.0:5000/add_new/<$itemID$>/<$name$>/<$price$>/<$qty$>
+##### Add new item to inventory - http://0.0.0.0:5000/add_new/<*itemID*>/<*name*>/<*price*>/<*qty*>
