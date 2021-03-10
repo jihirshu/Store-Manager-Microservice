@@ -25,3 +25,11 @@ A very basic API to demonstrate a Flask based microservice in a docker container
 ##### Add item quantity to inventory - http://0.0.0.0:5000/order/<*itemID*>/<*qty*>
 
 ##### Add new item to inventory - http://0.0.0.0:5000/add_new/<*itemID*>/<*name*>/<*price*>/<*qty*>
+
+
+### Alternate Installation 
+
+1. Create a virtual environment -- virtualenv env
+2. Activate the environment -- source env/bin/activate
+3. install prerequisites -- make install
+4. run the service -- python store_manager.py
