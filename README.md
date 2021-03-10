@@ -29,7 +29,8 @@ A very basic API to demonstrate a Flask based microservice in a docker container
 
 ### Alternate Installation 
 
-1. Create a virtual environment -- virtualenv env
-2. Activate the environment -- source env/bin/activate
-3. install prerequisites -- make install
-4. run the service -- python store_manager.py
+1. cd to repo directory
+2. Create a virtual environment -- virtualenv env
+3. Activate the environment -- source env/bin/activate
+4. install prerequisites -- make install
+5. run the service -- python store_manager.py
